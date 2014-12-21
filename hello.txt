@@ -1,0 +1,20 @@
+hello git
+
+git tag
+git tag -a v1.5 -m 'tag version 1.5 by lodjeu'
+git tag
+git push origin v1.5
+git push origin --tags
+git checkout -f v2.0.0
+
+git branch -b testing (create branch testing and switch to it. NB : -b is required to create a new branch)
+git commit -a -m 'branch testing'
+git checkout master
+git checkout testing
+
+git branch -d testing (delete branch testing)
+git branch -D testing (force delete branch testing)
+
+git push origin testing (push the commited branch testing to the server)
+
+git fetch origin (get all branches state from the server to our local repository where you execute the command)
