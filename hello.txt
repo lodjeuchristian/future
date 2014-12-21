@@ -18,3 +18,5 @@ git branch -D testing (force delete branch testing)
 git push origin testing (push the commited branch testing to the server)
 
 git fetch origin (get all branches state from the server to our local repository where you execute the command)
+
+this is the tag version 4 (first commit, then create tag, the push)
